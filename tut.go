@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("get:", a[4], a[2])
 
 	var twoD [2][3]int
-	for b := 0; b < 2; b++ {
+	for b := 0; b < 3; b++ {
 		for c := 0; c < 3; c++ {
 			twoD[b][c] = b + c
 
